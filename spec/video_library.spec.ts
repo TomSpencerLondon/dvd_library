@@ -1,4 +1,4 @@
-import {donate } from '../video_library';
+import { donate } from '../video_library';
 
 describe('Video Library', () => {
   let library = [];
@@ -13,5 +13,5 @@ describe('Video Library', () => {
 
   it('assigns 1 copy to donated DVD', () => {
     expect(library[0].copies).toBe(1);
-  })
+  });
 });
